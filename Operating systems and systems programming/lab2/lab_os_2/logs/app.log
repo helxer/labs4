@@ -1,0 +1,12 @@
+2026-05-27 00:49:49,932 - INFO - Directories created and permissions set.
+2026-05-27 00:49:49,932 - INFO - Generating 10000 numbers into lab_os_2/input/numbers.txt
+2026-05-27 00:49:49,934 - INFO - Wrote 10000 numbers to lab_os_2/input/numbers.txt
+2026-05-27 00:49:49,997 - INFO - Sequential: total=10000 primes=672 time=0.0278s
+2026-05-27 00:51:40,114 - INFO - Directories created and permissions set.
+2026-05-27 00:51:40,114 - INFO - Generating 10000 numbers into lab_os_2/input/numbers.txt
+2026-05-27 00:51:40,116 - INFO - Wrote 10000 numbers to lab_os_2/input/numbers.txt
+2026-05-27 00:51:40,336 - INFO - Sequential: total=10000 primes=515 time=0.1874s
+2026-05-27 00:52:09,736 - INFO - Directories created and permissions set.
+2026-05-27 00:52:09,736 - INFO - Generating 50000 numbers into lab_os_2/input/numbers.txt
+2026-05-27 00:52:09,751 - INFO - Wrote 50000 numbers to lab_os_2/input/numbers.txt
+2026-05-27 00:52:13,274 - INFO - Sequential: total=50000 primes=2302 time=3.4862s
