@@ -1,0 +1,23 @@
+=== Parent process ===  PID=23890  PPID=23887
+[A] start  PID=23893  PPID=23890
+[C] start  PID=23895  PPID=23890
+[B] start  PID=23894  PPID=23890
+[B] tick 1  PID=23894  t=00:57:3
+[A] tick 1  PID=23893  t=00:57:3
+[C] tick 1  PID=23895  t=00:57:3
+[B] tick 2  PID=23894  t=00:57:3
+[A] tick 2  PID=23893  t=00:57:3
+[B] tick 3  PID=23894  t=00:57:3
+[B] done   PID=23894
+[C] tick 2  PID=23895  t=00:57:3
+[A] tick 3  PID=23893  t=00:57:3
+[A] done   PID=23893
+[C] tick 3  PID=23895  t=00:57:3
+[C] done   PID=23895
+
+=== Process tree (parent=23890) ===
+  child PID=23893  name=Process-1
+  child PID=23894  name=Process-2
+  child PID=23895  name=Process-3
+
+=== All children finished ===

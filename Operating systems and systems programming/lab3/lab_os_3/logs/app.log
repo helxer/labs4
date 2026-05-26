@@ -1,0 +1,10 @@
+2026-05-27 00:57:03,269 - INFO - Parent PID=23815 PPID=23813
+2026-05-27 00:57:04,828 - INFO - All children joined
+2026-05-27 00:57:37,582 - INFO - Parent PID=23890 PPID=23887
+2026-05-27 00:57:39,141 - INFO - All children joined
+2026-05-27 00:57:43,884 - INFO - Race condition demo: expected=20000 actual=10409 lost_updates=9591 time=0.0632s
+2026-05-27 00:57:43,999 - INFO - Race condition demo: expected=20000 actual=10184 lost_updates=9816 time=0.0620s
+2026-05-27 00:57:44,111 - INFO - Race condition demo: expected=20000 actual=10078 lost_updates=9922 time=0.0605s
+2026-05-27 00:57:45,763 - INFO - Peterson's algorithm: expected=20000 actual=20000 lost_updates=0 time=0.0668s
+2026-05-27 00:57:45,886 - INFO - Peterson's algorithm: expected=20000 actual=20000 lost_updates=0 time=0.0667s
+2026-05-27 00:57:46,002 - INFO - Peterson's algorithm: expected=20000 actual=20000 lost_updates=0 time=0.0621s

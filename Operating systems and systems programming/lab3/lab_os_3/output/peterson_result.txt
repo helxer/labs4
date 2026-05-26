@@ -1,0 +1,1 @@
+Peterson's algorithm: expected=20000 actual=20000 lost_updates=0 time=0.0621s
