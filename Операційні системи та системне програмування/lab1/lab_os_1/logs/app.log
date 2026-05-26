@@ -1,0 +1,20 @@
+2026-03-06 17:55:27,690 - INFO - Directories created.
+2026-03-06 17:55:27,690 - INFO - Permissions set successfully.
+2026-03-06 17:55:27,690 - INFO - Started generating 100 files.
+2026-03-06 17:55:27,846 - INFO - Finished generating 100 files.
+2026-03-06 17:55:27,846 - INFO - Started sequential processing.
+2026-03-06 17:55:27,880 - INFO - Finished sequential processing.
+2026-03-06 17:55:27,880 - INFO - Started multithreaded processing.
+2026-03-06 17:55:27,920 - INFO - Finished multithreaded processing.
+2026-03-06 17:55:27,920 - INFO - Started generating 300 files.
+2026-03-06 17:55:28,268 - INFO - Finished generating 300 files.
+2026-03-06 17:55:28,268 - INFO - Started sequential processing.
+2026-03-06 17:55:28,370 - INFO - Finished sequential processing.
+2026-03-06 17:55:28,370 - INFO - Started multithreaded processing.
+2026-03-06 17:55:28,491 - INFO - Finished multithreaded processing.
+2026-03-06 17:55:28,492 - INFO - Started generating 500 files.
+2026-03-06 17:55:29,088 - INFO - Finished generating 500 files.
+2026-03-06 17:55:29,088 - INFO - Started sequential processing.
+2026-03-06 17:55:29,261 - INFO - Finished sequential processing.
+2026-03-06 17:55:29,261 - INFO - Started multithreaded processing.
+2026-03-06 17:55:29,462 - INFO - Finished multithreaded processing.
