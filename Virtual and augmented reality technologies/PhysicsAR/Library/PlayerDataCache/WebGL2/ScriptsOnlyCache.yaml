@@ -1,0 +1,241 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - CollisionSound
+    - CradleStarter
+    - HudHint
+    - ObserverController
+    - PeriodMeasurer
+    - SceneRouter
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.Api.TestRunnerApi
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+  serializedClasses: {}
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/01_SimplePendulum.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4bf1a23d6c520490ba66c7a8ecbb2b61, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: b257aa4edd2a44b63afd6612f7449029, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: cae251f7628bf48248257bc784cfc9c6, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: c880cd409e76b45d5ba3e56c580560cc, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    Assets/Scenes/02_SpringPendulum.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4bf1a23d6c520490ba66c7a8ecbb2b61, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: c880cd409e76b45d5ba3e56c580560cc, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 145
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/03_NewtonsCradle.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: aca3f79fb294f47f9a88f1ac9b853d99, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: d7ba96daa6a574322a441881a66773c6, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4bf1a23d6c520490ba66c7a8ecbb2b61, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: c880cd409e76b45d5ba3e56c580560cc, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: c56013c5c2f440f575dfdd39dd62b663
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ObserverController
+  - hash:
+      serializedVersion: 2
+      Hash: 78e85bde51e3c487d2ab382a7f6262bd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneRouter
+  - hash:
+      serializedVersion: 2
+      Hash: c205204fe82c1c66b06d7effbe1885d4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PeriodMeasurer
+  - hash:
+      serializedVersion: 2
+      Hash: e8d51c1760062aba8e191dc0efdccd3a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CradleStarter
+  - hash:
+      serializedVersion: 2
+      Hash: db6226c5c0d212685651a21d2a23a4fa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CollisionSound
+  - hash:
+      serializedVersion: 2
+      Hash: d27abea3063a3de18d6c655042fbc872
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HudHint
+  platform: 20
+  scenePathNames:
+  - Assets/Scenes/01_SimplePendulum.unity
+  - Assets/Scenes/02_SpringPendulum.unity
+  - Assets/Scenes/03_NewtonsCradle.unity
+  nativeClasses: 
+  playerPath: /Users/max/KSU/labs/Virtual and augmented reality technologies/PhysicsAR/Build/WebGL

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/01_SimplePendulum.unity
+    guid: 41a6bdc5572b24b469073ba613351cd5
+  - enabled: 1
+    path: Assets/Scenes/02_SpringPendulum.unity
+    guid: 40795532d6749476e862a0473a9bcd12
+  - enabled: 1
+    path: Assets/Scenes/03_NewtonsCradle.unity
+    guid: 2ff8b65418ce7476cab8ab1ddc9ae344
+  m_configObjects: {}

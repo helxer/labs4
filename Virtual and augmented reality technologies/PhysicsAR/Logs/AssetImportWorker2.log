@@ -1,0 +1,2125 @@
+Unity Editor version:    6000.4.8f1 (f8b72d3d7343)
+Branch:                  6000.4/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.5 (Build 25F71)
+Darwin version:          25.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
+Date:                    2026-05-26T20:14:24Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-max" at "2026-05-26T20:14:24.523865Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.4.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/max/KSU/labs/Virtual and augmented reality technologies/PhysicsAR
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49942
+-force-metal
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/max/KSU/labs/Virtual and augmented reality technologies/PhysicsAR
+/Users/max/KSU/labs/Virtual and augmented reality technologies/PhysicsAR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8305188480]  Target information:
+
+Player connection [8305188480]  * "[IP] 192.168.10.239 [Port] 0 [Flags] 2 [Guid] 3039067667 [EditorId] 3039067667 [Version] 1048832 [Id] OSXEditor(0,Maxs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8305188480] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8305188480] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.8f1 (f8b72d3d7343)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.4.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/max/KSU/labs/Virtual and augmented reality technologies/PhysicsAR/Assets
+Forcing GfxDevice: Metal
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              9d4b4580a6444fca9ad5325893ccfc62
+  Correlation Id:          d41cfc991465282fa67a82e22a979009
+  External correlation Id: 1349963217011757162
+  Machine Id:              VzsTqjzgoEZEsL/7UYxvp0OKZKU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-max" (connect: 0.00s, validation: 0.00s, handshake: 0.31s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-max-notifications" at "2026-05-26T20:14:24.83472Z"
+[Licensing::Module] Licensing Background thread has ended after 0.31s
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.8f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.4.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56766
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.4.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.4.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000444 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.207 seconds
+Domain Reload Profiling: 434ms
+	BeginReloadAssembly (45ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (45ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (106ms)
+	FinalizeReload (207ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (57ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7972577156804-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 438ms
+	BeginReloadAssembly (67ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (71ms)
+		LoadAssemblies (75ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (13ms)
+			BuildScriptInfoCaches (3ms)
+	FinalizeReload (247ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.4.8f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 718 unused Assets / (294.6 KB). Loaded Objects now: 1320.
+Memory consumption went from 70.5 MB to 70.2 MB.
+Total: 4.108834 ms (FindLiveObjects: 0.070792 ms CreateObjectMapping: 0.015208 ms MarkObjects: 3.877834 ms  DeleteObjects: 0.144667 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x171893000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 434ms
+	BeginReloadAssembly (76ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (64ms)
+		LoadAssemblies (78ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (247ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (81.7 KB). Loaded Objects now: 1321.
+Memory consumption went from 78.2 MB to 78.1 MB.
+Total: 3.558583 ms (FindLiveObjects: 0.045125 ms CreateObjectMapping: 0.015667 ms MarkObjects: 3.416208 ms  DeleteObjects: 0.081125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.241 seconds
+Domain Reload Profiling: 428ms
+	BeginReloadAssembly (76ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (64ms)
+		LoadAssemblies (78ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (241ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (95.2 KB). Loaded Objects now: 1322.
+Memory consumption went from 78.8 MB to 78.7 MB.
+Total: 3.379750 ms (FindLiveObjects: 0.045166 ms CreateObjectMapping: 0.013709 ms MarkObjects: 3.228416 ms  DeleteObjects: 0.092250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3242.456402 seconds.
+  path: Assets/Materials/Mat_Trail.mat
+  importAddress: Guid(cfe393e01e4d44424bf75a806d75aa5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Mat_Trail.mat using Guid(cfe393e01e4d44424bf75a806d75aa5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '29123971be63bdf8212627cf19144f87') in 0.054794583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=769bfde957eff0bef3b72910ce7d6cad DependenciesID=37936c4cd43971a592a0a1c7864a89ce StaticDependenciesID=1f75d5ab8f7690ff26ec2ca4de2807bc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 447ms
+	BeginReloadAssembly (79ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (68ms)
+		LoadAssemblies (84ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (251ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (92.4 KB). Loaded Objects now: 1325.
+Memory consumption went from 81.3 MB to 81.2 MB.
+Total: 3.558333 ms (FindLiveObjects: 0.054042 ms CreateObjectMapping: 0.016000 ms MarkObjects: 3.382500 ms  DeleteObjects: 0.105500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.237 seconds
+Domain Reload Profiling: 421ms
+	BeginReloadAssembly (73ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (64ms)
+		LoadAssemblies (77ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (237ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (102.4 KB). Loaded Objects now: 1326.
+Memory consumption went from 81.7 MB to 81.6 MB.
+Total: 3.444917 ms (FindLiveObjects: 0.043375 ms CreateObjectMapping: 0.015459 ms MarkObjects: 3.273208 ms  DeleteObjects: 0.111792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.240 seconds
+Domain Reload Profiling: 437ms
+	BeginReloadAssembly (75ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (75ms)
+		LoadAssemblies (90ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (240ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (84.6 KB). Loaded Objects now: 1327.
+Memory consumption went from 82.3 MB to 82.2 MB.
+Total: 3.371625 ms (FindLiveObjects: 0.047083 ms CreateObjectMapping: 0.014875 ms MarkObjects: 3.223459 ms  DeleteObjects: 0.086041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 422ms
+	BeginReloadAssembly (73ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (65ms)
+		LoadAssemblies (78ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (238ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (85.3 KB). Loaded Objects now: 1328.
+Memory consumption went from 82.9 MB to 82.8 MB.
+Total: 3.552125 ms (FindLiveObjects: 0.050667 ms CreateObjectMapping: 0.014875 ms MarkObjects: 3.393000 ms  DeleteObjects: 0.093458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 710.369070 seconds.
+  path: Assets/Scenes/02_SpringPendulum.unity
+  importAddress: Guid(40795532d6749476e862a0473a9bcd12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/02_SpringPendulum.unity using Guid(40795532d6749476e862a0473a9bcd12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd4334abc323edde95314059fad921105') in 0.045205625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7627439323c9c29e1e6d2f40f7317f25 DependenciesID=f5c8026f622f31c0d1cd667913535528 StaticDependenciesID=55c0a89a5f2a6f85e42d658ff3f0b12d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/SpringPendulum.prefab
+  importAddress: Guid(58ec109b6db104220a7d4f2ae48550c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/SpringPendulum.prefab using Guid(58ec109b6db104220a7d4f2ae48550c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d793e819af4421e461cc46ae96a4668') in 0.012635375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e6cdd3e57ee24333409ff1fb23d905f7 DependenciesID=96c40ef947a871534b67d7b058396463 StaticDependenciesID=ec4cf9c5b665d11c2713f1e7d4c3bf73 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.540425 seconds.
+  path: Assets/Scenes/03_NewtonsCradle.unity
+  importAddress: Guid(2ff8b65418ce7476cab8ab1ddc9ae344) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/03_NewtonsCradle.unity using Guid(2ff8b65418ce7476cab8ab1ddc9ae344) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6c18bdc838dccbfe7dc2ac6bccb7377a') in 0.0047585 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2d07e1250c329a7d804f4f16169454c DependenciesID=461c564cbfbc8fe90a1735e251a87448 StaticDependenciesID=f02ab8e52c17547777aadb8c50711cb9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 451ms
+	BeginReloadAssembly (76ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (73ms)
+		LoadAssemblies (88ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (256ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (52.5 KB). Loaded Objects now: 1331.
+Memory consumption went from 84.5 MB to 84.4 MB.
+Total: 3.922458 ms (FindLiveObjects: 0.058333 ms CreateObjectMapping: 0.016709 ms MarkObjects: 3.722375 ms  DeleteObjects: 0.124625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.271 seconds
+Domain Reload Profiling: 481ms
+	BeginReloadAssembly (83ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (77ms)
+		LoadAssemblies (94ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (271ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (106.4 KB). Loaded Objects now: 1332.
+Memory consumption went from 85.1 MB to 85.0 MB.
+Total: 4.082334 ms (FindLiveObjects: 0.057041 ms CreateObjectMapping: 0.018292 ms MarkObjects: 3.903542 ms  DeleteObjects: 0.102875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 159.115664 seconds.
+  path: Assets/Prefabs/CradleBall.prefab
+  importAddress: Guid(2b120368b66bf40b39dcb51ad60e6fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CradleBall.prefab using Guid(2b120368b66bf40b39dcb51ad60e6fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '660ac62492acdac47d3743205a67af2f') in 0.2038315 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a91384fae0105a172ffa38aebc8708f0 DependenciesID=e8af988135579ad2ddbb8b8ce5b60b46 StaticDependenciesID=e3936daf77e927b6c3041ada7844e314 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.277 seconds
+Domain Reload Profiling: 467ms
+	BeginReloadAssembly (76ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (66ms)
+		LoadAssemblies (80ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (278ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (31.9 KB). Loaded Objects now: 1341.
+Memory consumption went from 86.6 MB to 86.6 MB.
+Total: 3.930709 ms (FindLiveObjects: 0.057833 ms CreateObjectMapping: 0.016542 ms MarkObjects: 3.755708 ms  DeleteObjects: 0.100292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 420ms
+	BeginReloadAssembly (72ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (63ms)
+		LoadAssemblies (76ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (238ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (106.4 KB). Loaded Objects now: 1342.
+Memory consumption went from 87.2 MB to 87.1 MB.
+Total: 3.540833 ms (FindLiveObjects: 0.053708 ms CreateObjectMapping: 0.016083 ms MarkObjects: 3.371333 ms  DeleteObjects: 0.099250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 424ms
+	BeginReloadAssembly (76ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (64ms)
+		LoadAssemblies (78ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (239ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (102.6 KB). Loaded Objects now: 1343.
+Memory consumption went from 87.8 MB to 87.7 MB.
+Total: 3.567750 ms (FindLiveObjects: 0.051959 ms CreateObjectMapping: 0.015833 ms MarkObjects: 3.407708 ms  DeleteObjects: 0.092000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 442ms
+	BeginReloadAssembly (78ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (83ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (248ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (113.2 KB). Loaded Objects now: 1344.
+Memory consumption went from 88.4 MB to 88.3 MB.
+Total: 3.686208 ms (FindLiveObjects: 0.057458 ms CreateObjectMapping: 0.015917 ms MarkObjects: 3.520917 ms  DeleteObjects: 0.091542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 443ms
+	BeginReloadAssembly (79ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (85ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (248ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (102.5 KB). Loaded Objects now: 1345.
+Memory consumption went from 89.0 MB to 88.9 MB.
+Total: 3.582583 ms (FindLiveObjects: 0.052625 ms CreateObjectMapping: 0.016042 ms MarkObjects: 3.401083 ms  DeleteObjects: 0.112667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.249 seconds
+Domain Reload Profiling: 444ms
+	BeginReloadAssembly (80ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (66ms)
+		LoadAssemblies (84ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (249ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (59.7 KB). Loaded Objects now: 1346.
+Memory consumption went from 89.6 MB to 89.5 MB.
+Total: 4.176167 ms (FindLiveObjects: 0.059375 ms CreateObjectMapping: 0.016709 ms MarkObjects: 3.984291 ms  DeleteObjects: 0.115250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.237 seconds
+Domain Reload Profiling: 423ms
+	BeginReloadAssembly (74ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (65ms)
+		LoadAssemblies (79ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (237ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (92.4 KB). Loaded Objects now: 1347.
+Memory consumption went from 90.2 MB to 90.1 MB.
+Total: 3.362541 ms (FindLiveObjects: 0.047042 ms CreateObjectMapping: 0.014583 ms MarkObjects: 3.216792 ms  DeleteObjects: 0.084000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1347.
+Memory consumption went from 82.6 MB to 82.6 MB.
+Total: 4.186000 ms (FindLiveObjects: 0.048209 ms CreateObjectMapping: 0.011291 ms MarkObjects: 4.120875 ms  DeleteObjects: 0.004875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+xcrun: error: sh -c '/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -find metal-objdump 2> /dev/null' failed with exit code 17664: (null) (errno=Invalid argument)
+xcrun: error: unable to find utility "metal-objdump", not a developer tool or in PATH
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1347.
+Memory consumption went from 82.4 MB to 82.4 MB.
+Total: 3.707166 ms (FindLiveObjects: 0.041500 ms CreateObjectMapping: 0.010167 ms MarkObjects: 3.652083 ms  DeleteObjects: 0.003083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 437ms
+	BeginReloadAssembly (77ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (71ms)
+		LoadAssemblies (78ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (7ms)
+			BuildScriptInfoCaches (7ms)
+	FinalizeReload (242ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 716 unused Assets / (83.2 KB). Loaded Objects now: 1348.
+Memory consumption went from 90.5 MB to 90.4 MB.
+Total: 3.439083 ms (FindLiveObjects: 0.047125 ms CreateObjectMapping: 0.015709 ms MarkObjects: 3.282000 ms  DeleteObjects: 0.093959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1348.
+Memory consumption went from 82.8 MB to 82.8 MB.
+Total: 3.648125 ms (FindLiveObjects: 0.038334 ms CreateObjectMapping: 0.010333 ms MarkObjects: 3.595958 ms  DeleteObjects: 0.003042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1348.
+Memory consumption went from 82.6 MB to 82.6 MB.
+Total: 3.679458 ms (FindLiveObjects: 0.039000 ms CreateObjectMapping: 0.010042 ms MarkObjects: 3.628000 ms  DeleteObjects: 0.002250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 717 unused Assets / (97.4 KB). Loaded Objects now: 1349.
+Memory consumption went from 82.9 MB to 82.8 MB.
+Total: 3.994959 ms (FindLiveObjects: 0.066708 ms CreateObjectMapping: 0.018250 ms MarkObjects: 3.802667 ms  DeleteObjects: 0.107250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.231 seconds
+Domain Reload Profiling: 431ms
+	BeginReloadAssembly (76ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (92ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (232ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 717 unused Assets / (79.2 KB). Loaded Objects now: 1350.
+Memory consumption went from 90.5 MB to 90.4 MB.
+Total: 3.390834 ms (FindLiveObjects: 0.050208 ms CreateObjectMapping: 0.016709 ms MarkObjects: 3.226208 ms  DeleteObjects: 0.097500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 718 unused Assets / (82.2 KB). Loaded Objects now: 1351.
+Memory consumption went from 83.2 MB to 83.2 MB.
+Total: 4.008459 ms (FindLiveObjects: 0.052459 ms CreateObjectMapping: 0.015833 ms MarkObjects: 3.821208 ms  DeleteObjects: 0.118375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.250 seconds
+Domain Reload Profiling: 438ms
+	BeginReloadAssembly (75ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (81ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (250ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 718 unused Assets / (32.0 KB). Loaded Objects now: 1352.
+Memory consumption went from 90.8 MB to 90.8 MB.
+Total: 3.810250 ms (FindLiveObjects: 0.055542 ms CreateObjectMapping: 0.016917 ms MarkObjects: 3.640667 ms  DeleteObjects: 0.096667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 719 unused Assets / (32.0 KB). Loaded Objects now: 1353.
+Memory consumption went from 83.7 MB to 83.6 MB.
+Total: 3.930250 ms (FindLiveObjects: 0.051375 ms CreateObjectMapping: 0.016500 ms MarkObjects: 3.764792 ms  DeleteObjects: 0.097167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.237 seconds
+Domain Reload Profiling: 425ms
+	BeginReloadAssembly (74ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (80ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (237ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 719 unused Assets / (88.8 KB). Loaded Objects now: 1354.
+Memory consumption went from 91.3 MB to 91.3 MB.
+Total: 3.658708 ms (FindLiveObjects: 0.053125 ms CreateObjectMapping: 0.017667 ms MarkObjects: 3.480375 ms  DeleteObjects: 0.107250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 720 unused Assets / (102.9 KB). Loaded Objects now: 1355.
+Memory consumption went from 84.2 MB to 84.1 MB.
+Total: 3.957667 ms (FindLiveObjects: 0.056958 ms CreateObjectMapping: 0.016042 ms MarkObjects: 3.779667 ms  DeleteObjects: 0.104458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 427ms
+	BeginReloadAssembly (73ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (66ms)
+		LoadAssemblies (79ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (242ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 720 unused Assets / (118.6 KB). Loaded Objects now: 1356.
+Memory consumption went from 91.8 MB to 91.6 MB.
+Total: 3.598042 ms (FindLiveObjects: 0.054542 ms CreateObjectMapping: 0.016000 ms MarkObjects: 3.432916 ms  DeleteObjects: 0.094417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.236 seconds
+Domain Reload Profiling: 422ms
+	BeginReloadAssembly (74ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (66ms)
+		LoadAssemblies (78ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (236ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 720 unused Assets / (94.6 KB). Loaded Objects now: 1357.
+Memory consumption went from 92.4 MB to 92.3 MB.
+Total: 3.386583 ms (FindLiveObjects: 0.052084 ms CreateObjectMapping: 0.014750 ms MarkObjects: 3.231416 ms  DeleteObjects: 0.088000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.239 seconds
+Domain Reload Profiling: 426ms
+	BeginReloadAssembly (75ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (66ms)
+		LoadAssemblies (79ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (239ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 720 unused Assets / (89.0 KB). Loaded Objects now: 1358.
+Memory consumption went from 92.9 MB to 92.8 MB.
+Total: 3.493458 ms (FindLiveObjects: 0.049583 ms CreateObjectMapping: 0.016125 ms MarkObjects: 3.335125 ms  DeleteObjects: 0.092375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 461ms
+	BeginReloadAssembly (79ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (68ms)
+		LoadAssemblies (85ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (264ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 720 unused Assets / (133.6 KB). Loaded Objects now: 1359.
+Memory consumption went from 93.6 MB to 93.4 MB.
+Total: 3.909375 ms (FindLiveObjects: 0.060375 ms CreateObjectMapping: 0.020166 ms MarkObjects: 3.721834 ms  DeleteObjects: 0.106750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.243 seconds
+Domain Reload Profiling: 431ms
+	BeginReloadAssembly (74ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (80ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (243ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 720 unused Assets / (88.7 KB). Loaded Objects now: 1360.
+Memory consumption went from 94.1 MB to 94.0 MB.
+Total: 3.381875 ms (FindLiveObjects: 0.053500 ms CreateObjectMapping: 0.014416 ms MarkObjects: 3.228750 ms  DeleteObjects: 0.084875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 719 unused Assets / (100.2 KB). Loaded Objects now: 1359.
+Memory consumption went from 86.9 MB to 86.8 MB.
+Total: 4.056250 ms (FindLiveObjects: 0.057833 ms CreateObjectMapping: 0.016416 ms MarkObjects: 3.875750 ms  DeleteObjects: 0.105500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.244 seconds
+Domain Reload Profiling: 433ms
+	BeginReloadAssembly (76ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (66ms)
+		LoadAssemblies (79ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (244ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 719 unused Assets / (115.7 KB). Loaded Objects now: 1360.
+Memory consumption went from 94.5 MB to 94.4 MB.
+Total: 3.468500 ms (FindLiveObjects: 0.060000 ms CreateObjectMapping: 0.015167 ms MarkObjects: 3.285916 ms  DeleteObjects: 0.107084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 720 unused Assets / (105.2 KB). Loaded Objects now: 1361.
+Memory consumption went from 87.2 MB to 87.1 MB.
+Total: 4.125042 ms (FindLiveObjects: 0.042042 ms CreateObjectMapping: 0.016791 ms MarkObjects: 3.954459 ms  DeleteObjects: 0.111584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 418ms
+	BeginReloadAssembly (73ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (80ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (232ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 720 unused Assets / (88.6 KB). Loaded Objects now: 1362.
+Memory consumption went from 94.8 MB to 94.7 MB.
+Total: 3.405917 ms (FindLiveObjects: 0.048458 ms CreateObjectMapping: 0.014750 ms MarkObjects: 3.253125 ms  DeleteObjects: 0.089208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 721 unused Assets / (84.5 KB). Loaded Objects now: 1363.
+Memory consumption went from 87.6 MB to 87.5 MB.
+Total: 4.589167 ms (FindLiveObjects: 0.080375 ms CreateObjectMapping: 0.019042 ms MarkObjects: 4.317208 ms  DeleteObjects: 0.172125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.244 seconds
+Domain Reload Profiling: 438ms
+	BeginReloadAssembly (77ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (69ms)
+		LoadAssemblies (82ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (244ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 721 unused Assets / (79.3 KB). Loaded Objects now: 1364.
+Memory consumption went from 95.3 MB to 95.2 MB.
+Total: 3.324416 ms (FindLiveObjects: 0.051084 ms CreateObjectMapping: 0.015458 ms MarkObjects: 3.162625 ms  DeleteObjects: 0.094875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 447ms
+	BeginReloadAssembly (74ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (93ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (245ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 721 unused Assets / (82.4 KB). Loaded Objects now: 1365.
+Memory consumption went from 95.9 MB to 95.9 MB.
+Total: 3.455500 ms (FindLiveObjects: 0.050334 ms CreateObjectMapping: 0.015708 ms MarkObjects: 3.300542 ms  DeleteObjects: 0.088708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 435ms
+	BeginReloadAssembly (75ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (79ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (247ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 721 unused Assets / (89.1 KB). Loaded Objects now: 1366.
+Memory consumption went from 96.5 MB to 96.4 MB.
+Total: 3.340292 ms (FindLiveObjects: 0.050917 ms CreateObjectMapping: 0.015500 ms MarkObjects: 3.167333 ms  DeleteObjects: 0.106250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.234 seconds
+Domain Reload Profiling: 423ms
+	BeginReloadAssembly (75ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (66ms)
+		LoadAssemblies (78ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (234ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 721 unused Assets / (89.0 KB). Loaded Objects now: 1367.
+Memory consumption went from 97.1 MB to 97.0 MB.
+Total: 3.409458 ms (FindLiveObjects: 0.049375 ms CreateObjectMapping: 0.014833 ms MarkObjects: 3.244666 ms  DeleteObjects: 0.100375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 442ms
+	BeginReloadAssembly (74ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (68ms)
+		LoadAssemblies (80ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (253ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 721 unused Assets / (51.3 KB). Loaded Objects now: 1368.
+Memory consumption went from 97.7 MB to 97.6 MB.
+Total: 3.663000 ms (FindLiveObjects: 0.051541 ms CreateObjectMapping: 0.015542 ms MarkObjects: 3.500708 ms  DeleteObjects: 0.094541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.248 seconds
+Domain Reload Profiling: 436ms
+	BeginReloadAssembly (74ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (66ms)
+		LoadAssemblies (79ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (248ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 721 unused Assets / (60.9 KB). Loaded Objects now: 1369.
+Memory consumption went from 98.3 MB to 98.3 MB.
+Total: 3.723334 ms (FindLiveObjects: 0.055750 ms CreateObjectMapping: 0.021250 ms MarkObjects: 3.538125 ms  DeleteObjects: 0.107833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 722 unused Assets / (105.5 KB). Loaded Objects now: 1370.
+Memory consumption went from 91.1 MB to 90.9 MB.
+Total: 4.721916 ms (FindLiveObjects: 0.064125 ms CreateObjectMapping: 0.021083 ms MarkObjects: 4.538833 ms  DeleteObjects: 0.097500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 425ms
+	BeginReloadAssembly (74ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (79ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (238ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 722 unused Assets / (89.9 KB). Loaded Objects now: 1371.
+Memory consumption went from 98.7 MB to 98.6 MB.
+Total: 3.525583 ms (FindLiveObjects: 0.054209 ms CreateObjectMapping: 0.016500 ms MarkObjects: 3.359459 ms  DeleteObjects: 0.095209 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.239 seconds
+Domain Reload Profiling: 426ms
+	BeginReloadAssembly (74ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (66ms)
+		LoadAssemblies (79ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (240ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 722 unused Assets / (89.1 KB). Loaded Objects now: 1372.
+Memory consumption went from 99.3 MB to 99.2 MB.
+Total: 3.468208 ms (FindLiveObjects: 0.053292 ms CreateObjectMapping: 0.017667 ms MarkObjects: 3.283584 ms  DeleteObjects: 0.113292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.246 seconds
+Domain Reload Profiling: 444ms
+	BeginReloadAssembly (76ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (74ms)
+		LoadAssemblies (88ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (247ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 722 unused Assets / (105.3 KB). Loaded Objects now: 1373.
+Memory consumption went from 99.9 MB to 99.8 MB.
+Total: 3.594583 ms (FindLiveObjects: 0.050292 ms CreateObjectMapping: 0.015833 ms MarkObjects: 3.444375 ms  DeleteObjects: 0.083833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.261 seconds
+Domain Reload Profiling: 461ms
+	BeginReloadAssembly (77ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (76ms)
+		LoadAssemblies (91ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (261ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 722 unused Assets / (106.8 KB). Loaded Objects now: 1374.
+Memory consumption went from 100.5 MB to 100.4 MB.
+Total: 4.106500 ms (FindLiveObjects: 0.085000 ms CreateObjectMapping: 0.023500 ms MarkObjects: 3.883792 ms  DeleteObjects: 0.113708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Import Request.
+  Time since last request: 3931.602628 seconds.
+  path: Assets/Prefabs/CradleBall.prefab
+  importAddress: Guid(2b120368b66bf40b39dcb51ad60e6fda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/CradleBall.prefab using Guid(2b120368b66bf40b39dcb51ad60e6fda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5264ff040515fee4ff212bee5e7f140a') in 0.049303708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54ddbffa43916f1ad6cc2bae5b990a26 DependenciesID=c6fb865cc10cd30796c9b09605dcd62d StaticDependenciesID=ea66221659015121f9a1a0091ec8f934 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/CradleStarter.cs
+  importAddress: Guid(d7ba96daa6a574322a441881a66773c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/CradleStarter.cs using Guid(d7ba96daa6a574322a441881a66773c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '70a1a5031995ca2ba3fe76e808b4630a') in 0.0010975 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71dd7a7ceb93a9e8ab5dc5c7ac0d71a8 DependenciesID=2a6b202a45ec50bbbccd3b87b893730a StaticDependenciesID=928677d57990325f5b2a07bb94321907 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scripts/HudHint.cs
+  importAddress: Guid(4bf1a23d6c520490ba66c7a8ecbb2b61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/HudHint.cs using Guid(4bf1a23d6c520490ba66c7a8ecbb2b61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5f5e6619d71d565ca7f3b8f7bdc4ba5f') in 0.00079275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ea4041d526e6bac32c9c65bddb0e5cf DependenciesID=85c7a2cabe6d21fe87e3eb63bed61974 StaticDependenciesID=f6bf25f812dbe2546069421fcf9e2708 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Audio/ambient.wav
+  importAddress: Guid(0407cedc922fe4d6bbac135f01fbf5e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Audio/ambient.wav using Guid(0407cedc922fe4d6bbac135f01fbf5e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '82b9264109803ea5e9eb9060a1771ee3') in 0.007976666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45a0641e3890196158494dc81de9d577 DependenciesID=cd803b2002cdb211e9c4eb9a12d9e64f StaticDependenciesID=7bd6687b898ece20a131f53d77493b17 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Materials/Mat_Brass.mat
+  importAddress: Guid(447018a2225de4ac09c1f1c892e0057f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Mat_Brass.mat using Guid(447018a2225de4ac09c1f1c892e0057f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0e957378cbbec43eb6a5e43f0029ea18') in 0.00766875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=330853e4a1aeda4a1de178422f6a1b96 DependenciesID=87bfa7c1174c894c126a96eda48789f2 StaticDependenciesID=050ecc856956529443fe87dae64d814c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scenes/01_SimplePendulum.unity
+  importAddress: Guid(41a6bdc5572b24b469073ba613351cd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/01_SimplePendulum.unity using Guid(41a6bdc5572b24b469073ba613351cd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b316a4e7ed2c84e7a8c67bc81d87b512') in 0.002788708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b4de0b91d653f3880bf6aecc9dfc678 DependenciesID=05712dd9d5523a91e6f0ef41439253ca StaticDependenciesID=a7edc13b4ef9244a71c968d73c05d588 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scripts/ObserverController.cs
+  importAddress: Guid(b257aa4edd2a44b63afd6612f7449029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/ObserverController.cs using Guid(b257aa4edd2a44b63afd6612f7449029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4ab48066e915cbad275ed5df0c659768') in 0.001174792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9582c240acc70ae40fd5bdc37df0bc16 DependenciesID=3f3d2f1ff2e199297d332c54f234caf2 StaticDependenciesID=4782d4558cf541f56f19371f89825f48 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scripts/CollisionSound.cs
+  importAddress: Guid(aca3f79fb294f47f9a88f1ac9b853d99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/CollisionSound.cs using Guid(aca3f79fb294f47f9a88f1ac9b853d99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0de4ffed3c73a4b0adc4d467035659f3') in 0.000823 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=283f9badbd67ddb9f9306fe737cac1a2 DependenciesID=de8e84be679d34eea64222895c5b1ac2 StaticDependenciesID=db036dcbcb648e4fbc5c3b9dd0a158a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Materials/Mat_FloorChecker.mat
+  importAddress: Guid(e6e9a50de3d2b487c99385137f85b674) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Mat_FloorChecker.mat using Guid(e6e9a50de3d2b487c99385137f85b674) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b9b996be33629fcbe6ff76ad048fc179') in 0.001231333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e66b2c053f4077e34827f188b7117a4 DependenciesID=24da1861dc6f08fa75558d987a99ac68 StaticDependenciesID=c6a5a1bb56b30e1208c66fa977939246 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scenes/02_SpringPendulum.unity
+  importAddress: Guid(40795532d6749476e862a0473a9bcd12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/02_SpringPendulum.unity using Guid(40795532d6749476e862a0473a9bcd12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '16d0c2734166d6d6ab7a0362a47a3bd7') in 0.001566625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c65534a092efc9e98d1b5ab0fcc56f6 DependenciesID=c6b94a0209e503f0357a6fd24e8e709c StaticDependenciesID=4d57e00b6b28562f958cec352690bcd9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Textures
+  importAddress: Guid(762b89849e2ca4a6895e859bc60fee22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures using Guid(762b89849e2ca4a6895e859bc60fee22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c6972fc66d8b122a4c22c2f0558a82f9') in 0.000933292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e98ccc3b1460d89234e60e7892bb68d DependenciesID=57c39ac9b5de8dee910d06041095d79f StaticDependenciesID=0d6bd906776a2dd6c91e665eabb7172d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Textures/Checker.png
+  importAddress: Guid(0deb879f3abfc45d9aa80bf402f66c09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/Checker.png using Guid(0deb879f3abfc45d9aa80bf402f66c09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '593919f30d77e1b77ae7c6decf72af2f') in 0.018035959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=880f7cd7f787374047c7eeaed0e7c0b7 DependenciesID=7c3eee44b3e2e2fb5a7ba0ff3af08901 StaticDependenciesID=81748ea18cae5c59d8d1d3274894d579 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scripts/SceneRouter.cs
+  importAddress: Guid(c880cd409e76b45d5ba3e56c580560cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/SceneRouter.cs using Guid(c880cd409e76b45d5ba3e56c580560cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e69852ec14b4ff91a4c0e73984eaa02') in 0.000995875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e36cb5e258419800970eea7c93f58e44 DependenciesID=6edb5b395a1ca48f1fe4f657cf7d38e3 StaticDependenciesID=73aaa3285166a8d2ca013a618e36161f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f84b000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 461ms
+	BeginReloadAssembly (82ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (70ms)
+		LoadAssemblies (83ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (11ms)
+	FinalizeReload (260ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 722 unused Assets / (85.9 KB). Loaded Objects now: 1375.
+Memory consumption went from 102.7 MB to 102.6 MB.
+Total: 4.051750 ms (FindLiveObjects: 0.064417 ms CreateObjectMapping: 0.017250 ms MarkObjects: 3.858875 ms  DeleteObjects: 0.110792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584

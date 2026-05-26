@@ -1,0 +1,84 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmbeddedAttribute__ctor_mD186A3EECAEA1F33E2DF7020B8BB5B7498869351 (void);
+extern void RefSafetyRulesAttribute__ctor_m151599E27DEEB22884EC61292629B3F3A766EBD1 (void);
+extern void Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62 (void);
+extern void Input_GetKeyDownInt_m0B655F969FCBC011BC2616E3E5A657CF7D76568A (void);
+extern void Input_GetMouseButton_m4995DD4A2D4F916565C1B1B5AAF7DF17C126B3EA (void);
+extern void Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (void);
+extern void InputUnsafeUtility_GetKeyString__Unmanaged_mD736022C3E6C98ED4B4AEA824AC2DA98A3A1B223 (void);
+extern void InputUnsafeUtility_GetKeyUpString__Unmanaged_mFD0D4ED74B64E565CB3F543CBBE38F6AE84AC27A (void);
+extern void InputUnsafeUtility_GetKeyDownString__Unmanaged_m53E2CCD225AC1CE7CB40002403EDC5AEF266EB8D (void);
+extern void InputUnsafeUtility_GetAxis_m034889C00C914572B94F091E8EC646E86408A29F (void);
+extern void InputUnsafeUtility_GetAxis__Unmanaged_m288AEE066E04CCFDD229629882CA42DBD1D85CF2 (void);
+extern void InputUnsafeUtility_GetAxisRaw__Unmanaged_m31953D955E75028D274A75661CAB2E13E13320AE (void);
+extern void InputUnsafeUtility_GetButton__Unmanaged_m270892EB7D8C88443200DF972F76076AC28952B2 (void);
+extern void InputUnsafeUtility_GetButtonDown__Unmanaged_m411E8743768382A33B3778E734AF072F8DBDECC4 (void);
+extern void InputUnsafeUtility_GetButtonUp__Unmanaged_mCCE34158CE05432541102B1C2AEC6545E25D0732 (void);
+extern void InputUnsafeUtility_GetAxis_Injected_m7617B11C7695077D77C9C2F3F068734E5F35E12E (void);
+static Il2CppMethodPointer s_methodPointers[16] = 
+{
+	EmbeddedAttribute__ctor_mD186A3EECAEA1F33E2DF7020B8BB5B7498869351,
+	RefSafetyRulesAttribute__ctor_m151599E27DEEB22884EC61292629B3F3A766EBD1,
+	Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62,
+	Input_GetKeyDownInt_m0B655F969FCBC011BC2616E3E5A657CF7D76568A,
+	Input_GetMouseButton_m4995DD4A2D4F916565C1B1B5AAF7DF17C126B3EA,
+	Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2,
+	InputUnsafeUtility_GetKeyString__Unmanaged_mD736022C3E6C98ED4B4AEA824AC2DA98A3A1B223,
+	InputUnsafeUtility_GetKeyUpString__Unmanaged_mFD0D4ED74B64E565CB3F543CBBE38F6AE84AC27A,
+	InputUnsafeUtility_GetKeyDownString__Unmanaged_m53E2CCD225AC1CE7CB40002403EDC5AEF266EB8D,
+	InputUnsafeUtility_GetAxis_m034889C00C914572B94F091E8EC646E86408A29F,
+	InputUnsafeUtility_GetAxis__Unmanaged_m288AEE066E04CCFDD229629882CA42DBD1D85CF2,
+	InputUnsafeUtility_GetAxisRaw__Unmanaged_m31953D955E75028D274A75661CAB2E13E13320AE,
+	InputUnsafeUtility_GetButton__Unmanaged_m270892EB7D8C88443200DF972F76076AC28952B2,
+	InputUnsafeUtility_GetButtonDown__Unmanaged_m411E8743768382A33B3778E734AF072F8DBDECC4,
+	InputUnsafeUtility_GetButtonUp__Unmanaged_mCCE34158CE05432541102B1C2AEC6545E25D0732,
+	InputUnsafeUtility_GetAxis_Injected_m7617B11C7695077D77C9C2F3F068734E5F35E12E,
+};
+static const int32_t s_InvokerIndices[16] = 
+{
+	2040,
+	1612,
+	3254,
+	3088,
+	3088,
+	3088,
+	2739,
+	2739,
+	2739,
+	3254,
+	2909,
+	2909,
+	2739,
+	2739,
+	2739,
+	3246,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGenModule = 
+{
+	"UnityEngine.InputLegacyModule.dll",
+	16,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
