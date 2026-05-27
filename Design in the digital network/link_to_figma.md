@@ -1,0 +1,1 @@
+[ПР1 – Рудчук – Figma Basics](https://www.figma.com/design/6oCmooyOzSS761ONAkSVgQ/%D0%9F%D0%A01-%E2%80%93-%D0%A0%D1%83%D0%B4%D1%87%D1%83%D0%BA-%E2%80%93-Figma-Basics?node-id=2-3&m=dev)
